@@ -21,15 +21,15 @@ cubeEffect: {
     },
     
   // If we need pagination
-  pagination: {
+ /*  pagination: {
     el: '.swiper-pagination',
-  },
+  }, */
 
-  // Navigation arrows
+ /*  // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
-  },
+  }, */
      
 });
 

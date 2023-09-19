@@ -1,0 +1,131 @@
+  /* Общие настройки */
+  * {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    box-sizing: border-box;
+    /* text-shadow: 6px 1px 5px #969696; */
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* img {
+    max-width: 100%;
+  } */
+  
+  .container-m {
+    width: 100vw;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: #F0F0F0;
+    }
+
+
+.nav-wrap {
+width: 100vw;
+display: flex;
+padding: 5px;
+    }
+
+.wrap-nav-top {
+    width: 900px;
+    height: 100px;
+}
+
+.logo {
+    width: 355px;
+}
+
+.logo-header {
+    font-size: 35px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero-container {
+    width: 100vw;
+}
+
+.slider-wrap {
+width: 100vw;
+height: 535px;
+margin: 0 auto;
+}
+
+.swiper {
+    width:100vw;
+    height: 535px;
+}
+
+.fit {
+    width: 100vw;
+    height: 535px;
+    object-fit:fill;
+}
+
+.stuff {
+    width: 100vw;
+
+}
+
+
+.heder-stuff {
+    width: 100vw;
+    min-height: 100px;
+
+}
+
+.stuff-header {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.wrap-list-stuff-options {
+    width: 100vw;
+}
+
+.stuff-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stuff-options {
+    width: 100vw;
+
+
+}
+
+.heder-stuff-options {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.wrap-list-stuff-options {
+    width: 100vw;
+}
+
+.stuff-list-options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
