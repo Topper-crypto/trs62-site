@@ -177,6 +177,13 @@ margin: 0 auto;
     padding: 10px 10px 10px 10px;
     width: 100%;
     display: block;
+    text-align: center;
+}
+
+.btn-suff:hover {
+    background-color: red;
+    color: black;
+    transition-delay: 0.1s;
 }
 
 .wrap-list-stuff-options {
