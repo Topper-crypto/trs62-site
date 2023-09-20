@@ -235,3 +235,24 @@ margin: 0 auto;
     justify-content: space-around;
     align-items: center; 
 }
+
+.btn-call-buttom {
+    outline: 2px solid red;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    display: none;
+    text-align: center;
+  }
+
+
+@media(max-width: 420px)
+{
+
+.btn-call-buttom {
+    outline: 2px solid red;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}
