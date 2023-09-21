@@ -211,6 +211,35 @@ margin: 0 auto;
     background-repeat: no-repeat;
 }
 
+.check {
+    background-image: url(../img/ev/checkmark_83735.svg);
+    background-size: 25px;
+    background-position: 0px 7px;
+    background-repeat: no-repeat;
+
+}
+
+.tumbs {
+    background-image: url(../img/ev/thumbs_up_thumb_likes_like_icon_251432.png);
+    background-size: 25px;
+    background-position: 0px 7px;
+    background-repeat: no-repeat;
+}
+
+.calendar {
+    background-image: url(../img/ev/1485477075-calendar_78587.svg);
+    background-size: 25px;
+    background-position: 0px 7px;
+    background-repeat: no-repeat;
+}
+
+.park {
+    background-image: url(../img/ev/14244817_ThanitApril_19.svg);
+    background-size: 205px 205px;
+    background-position: 0px 7px;
+    background-repeat: no-repeat;
+}
+
 .btn-suff:hover {
     background-color: red;
     color: black;
