@@ -5,6 +5,7 @@
     font-weight: 400;
     box-sizing: border-box;
     text-shadow: 6px 5px 5px #969696;
+   
   }
   
   ul {
@@ -241,6 +242,7 @@ margin: 0 auto;
     width: 240px;
     min-height: 400px;
     outline: 2px solid black;
+    box-shadow: 6px 5px 5px #969696;
 }
 
 .stuff-options-inner {
@@ -250,6 +252,7 @@ margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-shadow: 6px 5px 5px #969696;
 }
 
 .stuff-section {
