@@ -102,6 +102,13 @@ justify-content: space-between;
 padding: 5px;
     }
 
+.map {
+    background-image: url(../img/ev/map.svg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 10px;
+}
+
 .wrap-nav-top {
     width: 900px;
     height: 100px;
