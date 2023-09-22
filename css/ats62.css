@@ -78,18 +78,13 @@ li:hover::after {
     scroll-behavior: smooth;
   }
   
-  
-  
   .container-m {
     width: 100vw;
-    height: 2000px;
+    height: 3000px;
     padding: 5px;
     margin: 0 auto;
     background-color: #F0F0F0;
-    }
-
-
-
+}
 
 .map {
     background-image: url(../img/ev/map.svg);
@@ -136,12 +131,12 @@ li:hover::after {
 
 
 .logo-header {
-    background-image: url(../img/ev/tow_truck-48_45904.png);
+    /* background-image: url(../img/ev/tow_truck-48_45904.png);
     background-size: 30px;
-    background-position: 350px 7px;
-    padding: 0px 40px 0px 0px;
+    background-position: 350px 7px; 
     background-repeat: no-repeat;
-    font-size: 35px;
+    font-size: 35px;*/
+    width: 261px;
 }
 
 .nav-list {
@@ -152,6 +147,22 @@ li:hover::after {
 
 .hero-container {
     width: 100vw;
+}
+
+.section-slider {
+    margin-bottom: 70px;
+}
+
+.section-services {
+    margin-bottom: 70px;
+}
+
+.section-stuff {
+    margin-bottom: 70px;
+}
+
+.section-options {
+    margin-bottom: 70px;
 }
 
 .slider-wrap {
@@ -173,71 +184,75 @@ margin: 0 auto;
 
 .stuff {
     width: 100vw;
-
+    margin: 0 auto;
 }
 
 .section-slider {
     margin-bottom: 100px;
 }
 
-.heder-stuff {
-    width: 100vw;
-    min-height: 100px;
+.header-services {
+    width: 768px;
+    margin: 0 auto;
+    text-align: justify;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 
+.header-stuff {
+    width: 100vw;
+    min-height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .stuff-header {
     display: block;
-    margin: 0 auto;
-    width: 200px;
+    margin: 0 auto 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
 }
 
 .stuff-header-in {
-  width: 600px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 150%;
 }
 
-.btn-suff {
-    outline: 2px solid red;
+.btn-suff {    
     padding: 10px 10px 10px 10px;
     width: 100%;
     display: block;
     text-align: center;
-    background-image: url(../img/ev/truck_line_icon_236333.svg);
-    background-size: 25px;
-    background-position: 0px 7px;
+    background-image: url(../img/tow-truck.svg);
+    background-size: 55px;
+    background-position: 70px 0px;
     background-repeat: no-repeat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
 }
 
 .check {
-    background-image: url(../img/ev/checkmark_83735.svg);
-    background-size: 25px;
-    background-position: 0px 7px;
-    background-repeat: no-repeat;
-
+    background-image: url(../img/stuff/checkmark.svg);
 }
 
 .tumbs {
-    background-image: url(../img/ev/thumbs_up_thumb_likes_like_icon_251432.png);
-    background-size: 25px;
-    background-position: 0px 7px;
-    background-repeat: no-repeat;
+    background-image: url(../img/stuff/favorite.svg);
 }
 
 .calendar {
-    background-image: url(../img/ev/1485477075-calendar_78587.svg);
-    background-size: 25px;
-    background-position: 0px 7px;
-    background-repeat: no-repeat;
+    background-image: url(../img/stuff/calendar.svg);
 }
 
 .park {
-    background-image: url(../img/ev/14244817_ThanitApril_19.svg);
-    background-size: 205px 205px;
-    background-position: 0px 7px;
-    background-repeat: no-repeat;
+    background-image: url(../img/stuff/tow-truck.svg);
 }
 
 .btn-suff:hover {
@@ -246,8 +261,14 @@ margin: 0 auto;
     transition-delay: 0.1s;
 }
 
+.wrap-list-stuff {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .wrap-list-stuff-options {
-    width: 100vw;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .stuff-list {
@@ -258,8 +279,6 @@ margin: 0 auto;
 
 .stuff-options {
     width: 100vw;
-
-
 }
 
 .stuff-list-inner {
@@ -267,36 +286,104 @@ margin: 0 auto;
     min-height: 400px;
     outline: 2px solid black;
     box-shadow: 6px 5px 5px #969696;
+
+    background-color: #6f88a07f;
+    border-radius: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 115px 10px 10px 10px;
+
+    background-size: 100px 100px;
+    background-position: 85px 25px;
+    background-repeat: no-repeat;
+}
+
+.stuff-header-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 200%;
+}
+
+.stuff-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 170%;
 }
 
 .stuff-options-inner {
-    width: 240px;
+    width: 560px;
     min-height: 400px;
     outline: 2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-shadow: 6px 5px 5px #969696;
+
+    background-color: #6f88a07f;
+    border-radius: 10px;
+    margin: 0;
+    align-items: center;
+    padding: 300px 10px 10px 10px;
+
+    background-size: 560px 300px;
+    background-repeat: no-repeat;
+}
+
+.ev1 {
+    background-image: url(../img/options/ev1.jpg);
+}
+
+.ev2 {
+    background-image: url(../img/options/ev2.png);
+}
+
+.ev3 {
+    background-image: url(../img/options/ev3.png);
+}
+
+.ev4 {
+    background-image: url(../img/options/ev4.png);
+}
+.options-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    margin: 0;
 }
 
 .stuff-section {
     margin-bottom: 50px;
 }
 
-
 .heder-stuff-options {
     width: 1200px;
     margin: 0 auto;
 }
 
-.wrap-list-stuff-options {
-    width: 100vw;
-}
-
 .stuff-list-options {
     display: flex;
-    justify-content: space-around;
-    align-items: center; 
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.stuff-list-item {
+    margin-bottom: 24px;
+}
+
+.stuff-list-item:not(:nth-child(4n)) {
+    margin-right: 23px;
+}
+
+.stuff-list-item-options {
+    margin-bottom: 24px;
+}
+
+.stuff-list-item-options:not(:nth-child(2n)) {
+    margin-right: 23px;
 }
 
 .btn-call-buttom {
