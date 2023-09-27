@@ -76,11 +76,12 @@ li:hover::after {
   
   html {
     scroll-behavior: smooth;
+    
   }
   
-  .container-m {
+.container-m {
     width: 100vw;
-    height: 3000px;
+    /* height: 3000px; */
     padding: 5px;
     margin: 0 auto;
     background-color: #F0F0F0;
@@ -165,18 +166,18 @@ li:hover::after {
 }
 
 .slider-wrap {
-width: 100vw;
+    width: 1200px;
 height: 535px;
 margin: 0 auto;
 }
 
 .swiper {
-    width:100vw;
+    width: 1200px;
     height: 535px;
 }
 
 .fit {
-    width: 100vw;
+    width: 1200px;
     height: 535px;
     object-fit:fill;
 }
@@ -387,7 +388,8 @@ margin: 0 auto;
 }
 
 .btn-call-buttom {
-    outline: 2px solid red;
+    outline: 2px solid green;
+    border-radius: 3px;
     padding: 10px 10px 10px 10px;
     width: 100%;
     display: none;
@@ -399,29 +401,62 @@ margin: 0 auto;
    
   }
 
+  .foot {
+    height: 200px;
+}
 
 
 
   @media(max-width: 768px)
   {
-    .section-slider {
+
+.container-m {
+        width: 768px;
+        padding: 5px;
+        margin: 0 auto;
+        background-color: #F0F0F0;
+     }
+
+     .slider-wrap {
+        width: 768px;
+    height: 535px;
+    margin: 0 auto;
+    }
+    
+    .swiper {
+        width: 768px;
+        height: 535px;
+    }
+    
+    .fit {
+        width: 768px;
+        height: 535px;
+        object-fit:fill;
+    }
+
+
+
+
+.section-slider {
         margin-bottom: 35px;
     }
     
-    .section-services {
+.section-services {
         margin-bottom: 35px;
     }
     
-    .section-stuff {
+.section-stuff {
         margin-bottom: 35px;
     }
     
-    .section-options {
+.section-options {
         margin-bottom: 35px;
     }
 
-  .btn-call-buttom {
-      outline: 2px solid red;
+.btn-call-buttom {
+    outline: 2px solid green;
+    background-color: green;
+    border-radius: 3px;
       padding: 10px 10px 10px 10px;
       width: 100%;
       display: block;
@@ -434,10 +469,197 @@ margin: 0 auto;
      position:sticky;
       top:0;
     }
+
+.foot {
+        height: 300px;
+    }
+
   }  
+
+  @media(max-width: 590px)
+  {
+
+    .container-m {
+        width: 590px;
+        padding: 5px;
+        margin: 0 auto;
+        background-color: #F0F0F0;
+     }
+
+
+
+    .slider-wrap {
+        width: 585px;
+    height: 320px;
+    margin: 0 auto;
+    }
+    
+    .swiper {
+        width: 585px;
+        height: 320px;
+    }
+    
+    .fit {
+        width: 585px;
+        height: 320px;
+        object-fit:fill;
+    }
+
+
+  .section-slider {
+      margin-bottom: 35px;
+  }
+          
+  .section-services {
+       margin-bottom: 35px;
+  }
+          
+  .section-stuff {
+      margin-bottom: 35px;
+  }
+          
+  .section-options {
+      margin-bottom: 35px;
+  }
+  
+  .nav-list {
+      flex-direction: column;
+      height: 240px;
+  }
+  .nav-menu--top {
+      height: 100%;
+  }
+  .wrap-nav-top {
+      height: 240px;
+  }
+  
+  .btn{
+      position:-webkit-sticky;
+      position:sticky;
+      bottom: 20px;
+      z-index: 1000;
+      
+  }
+  
+  .btn-call-buttom {
+    outline: 2px solid green;
+    border-radius: 3px;
+      padding: 10px 10px 10px 10px;
+      width: 100%;
+      display: block;
+      text-align: center;
+      background-image: url(../img/ev/telephone.svg);
+      background-size: 25px;
+      background-position: 0px 7px;
+      background-repeat: no-repeat;
+     
+     
+  }
+  .header-services {
+      width: 365px;
+  }
+  .wrap-list-stuff {
+      width: 420px;
+  }
+  .logo-header {
+      width: 330px;
+  }
+  
+  .phone {
+      background-size: 25px;
+      background-position: 0px 11px;
+      font-size: 23px;  
+  }
+  
+  .mail {
+      background-size: 25px;
+      background-position: 0px 11px;
+      font-size: 23px;  
+  }
+  
+  .call {
+      background-size: 25px;
+      background-position: 0px 11px;
+      font-size: 23px;    
+  }
+  
+  .stuff-list {
+      flex-direction: column;
+  }
+  .stuff-list-inner {
+      width: 320px;
+      min-height: 290px;
+      padding: 90px 10px 10px 10px;
+      background-position: 115px 10px;
+  }
+  .stuff-list-item:not(:nth-child(4n)) {
+      margin-right: 0px;
+  }
+  .wrap-list-stuff-options {
+      width: 400px;
+  
+  }
+  
+  .stuff-list-options {
+      flex-direction: column;
+  }
+  .stuff-options-inner {
+      width: 390px;
+      min-height: 360px;
+      padding: 250px 10px 10px 10px;
+      background-size: 400px 240px;
+      align-items: center;
+  }
+  .stuff-list-item-options:not(:nth-child(2n)) {
+      margin-right: 0px;
+  }
+  .options-text {
+      text-align: center;
+  }
+  .btn-suff {
+      background-position: 20px 0px;
+      padding: 10px 10px 10px 65px;
+  }
+
+  .foot {
+    height: 300px;
+}
+
+  }
 
 @media(max-width: 420px)
 {
+
+.container-m {
+    width: 420px;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: #F0F0F0;
+ }
+
+ .slider-wrap {
+    width: 420px;
+height: 300px;
+margin: 0 auto;
+}
+
+.swiper {
+    width: 420px;
+    height: 300px;
+}
+
+.fit {
+    width: 420px;
+    height: 300px;
+    object-fit:fill;
+}
+
+
+
+
+
+
+
 .section-slider {
     margin-bottom: 35px;
 }
@@ -474,7 +696,8 @@ margin: 0 auto;
 }
 
 .btn-call-buttom {
-    outline: 2px solid red;
+    outline: 2px solid green;
+    border-radius: 3px;
     padding: 10px 10px 10px 10px;
     width: 100%;
     display: block;
@@ -551,4 +774,163 @@ margin: 0 auto;
     background-position: 20px 0px;
     padding: 10px 10px 10px 65px;
 }
+
+.foot {
+    height: 300px;
+}
+
+}
+
+@media(max-width: 360px)
+{
+
+.container-m {
+    width: 360px;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: #F0F0F0;
+ }
+
+ .slider-wrap {
+    width: 360px;
+height: 240px;
+margin: 0 auto;
+}
+
+.swiper {
+    width: 360px;
+    height: 240px;
+}
+
+.fit {
+    width: 360px;
+    height: 240px;
+    object-fit:fill;
+}
+
+
+.section-slider {
+    margin-bottom: 35px;
+}
+        
+.section-services {
+     margin-bottom: 35px;
+}
+        
+.section-stuff {
+    margin-bottom: 35px;
+}
+        
+.section-options {
+    margin-bottom: 35px;
+}
+
+.nav-list {
+    flex-direction: column;
+    height: 240px;
+}
+.nav-menu--top {
+    height: 100%;
+}
+.wrap-nav-top {
+    height: 240px;
+}
+
+.btn{
+    position:-webkit-sticky;
+    position:sticky;
+    bottom: 20px;
+    z-index: 1000;
+    
+}
+
+.btn-call-buttom {
+    outline: 2px solid green;
+    border-radius: 3px;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-image: url(../img/ev/telephone.svg);
+    background-size: 25px;
+    background-position: 0px 7px;
+    background-repeat: no-repeat;
+   
+   
+}
+.header-services {
+    width: 360px;
+}
+.wrap-list-stuff {
+    width: 360px;
+}
+.logo-header {
+    width: 330px;
+}
+
+.phone {
+    background-size: 25px;
+    background-position: 0px 11px;
+    font-size: 23px;  
+}
+
+.mail {
+    background-size: 25px;
+    background-position: 0px 11px;
+    font-size: 23px;  
+}
+
+.map {
+    font-size: 13px;
+}
+
+.call {
+    background-size: 25px;
+    background-position: 0px 11px;
+    font-size: 23px;    
+}
+
+.stuff-list {
+    flex-direction: column;
+}
+.stuff-list-inner {
+    width: 320px;
+    min-height: 290px;
+    padding: 90px 10px 10px 10px;
+    background-position: 115px 10px;
+}
+.stuff-list-item:not(:nth-child(4n)) {
+    margin-right: 0px;
+}
+.wrap-list-stuff-options {
+    width: 360px;
+
+}
+
+.stuff-list-options {
+    flex-direction: column;
+}
+.stuff-options-inner {
+    width: 360px;
+    min-height: 360px;
+    padding: 250px 10px 10px 10px;
+    background-size: 400px 240px;
+    align-items: center;
+}
+.stuff-list-item-options:not(:nth-child(2n)) {
+    margin-right: 0px;
+}
+.options-text {
+    text-align: center;
+}
+.btn-suff {
+    background-position: 20px 0px;
+    padding: 10px 10px 10px 65px;
+}
+
+.foot {
+    height: 300px;
+}
+
+
 }
